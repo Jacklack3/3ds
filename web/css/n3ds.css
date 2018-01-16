@@ -226,25 +226,19 @@ body {
     background-attachment: fixed;
     min-height: 460px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+h1,h2,h3,h4,h5,h6,
 p,
-ul,
-ol,
+ul,ol,
 menu,
 li,
-table,
-tr,
-th,
-td {
+table,tr,th,td {
     font-size: 100%;
     font-weight: normal;
     margin: 0;
     padding: 0;
+}
+input {
+    -webkit-border-radius: 6px;
 }
 input[type="button"],
 input[type="submit"],
